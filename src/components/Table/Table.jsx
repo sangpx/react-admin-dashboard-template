@@ -50,7 +50,6 @@ const Table = (props) => {
           </tbody>
         ) : null}
       </table>
-
       {pages > 1 ? (
         <div className="table__pagination">
           {range.map((item, index) => (
